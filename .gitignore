@@ -3,7 +3,7 @@ cat > .gitignore <<'EOF'
 build/
 *.bin
 *.ihx
-
+tune.inc
 # generated selector
 tune.inc
 
