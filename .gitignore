@@ -1,0 +1,14 @@
+cat > .gitignore <<'EOF'
+# build outputs
+build/
+*.bin
+*.ihx
+
+# generated selector
+tune.inc
+
+# editor / OS
+.vscode/
+.DS_Store
+._*
+EOF
